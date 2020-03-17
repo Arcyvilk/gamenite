@@ -9,7 +9,8 @@ An example configuration looks like this:
 ```
 {
     "DISCORD_TOKEN": "iAMaSUPERsecretTOKENdoNOTgiveMEtoANYONE666",
-    "DATABASE_URL": [
+    "CAT_API_TOKEN": "iAMaTOKENmeow",
+    "DATABASES": [
         {
             "symbol": database_name,
             "url": "mongodb://username:password@host_ip:host_port/database_name?authSource=auth_database_name"
