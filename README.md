@@ -35,6 +35,6 @@ To work, bot requires a running mongoDB database. Data structures are specific f
 ### How to stop the daemon:
 - forever stop <process number>
 - if you ran the forever process via `npm run gamenite` command you'll need to use additional commands to kill the bot:
--- `ps -ef | grep vitas`
+-- `ps -ef | grep gamenite`
 -- `kill <PID>`
 
